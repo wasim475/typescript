@@ -3,6 +3,7 @@ let friends: string[] = ["anik", "rony"];
 const roleNumber: number[] = [1, 3, 5];
 
 // tuple
+let user: [string, number] = ["Wasim", 29];
 
 /**
   টুপল (Tuple) TypeScript-এ টুপল হলো এমন একটি বিশেষ অ্যারে যেখানে প্রতিটি এলিমেন্টের টাইপ নির্দিষ্টভাবে নির্ধারিত থাকে 
