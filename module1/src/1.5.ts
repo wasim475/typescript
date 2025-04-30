@@ -1,6 +1,6 @@
 const user:{
     firstName:string;
-    lastName:string;
+    lastName?:string; //optional type
     age: number;
     isMarried: boolean
 } = {
