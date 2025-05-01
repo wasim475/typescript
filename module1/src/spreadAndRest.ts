@@ -20,7 +20,7 @@ const myFavAndIns = {...myInspiration,...myFavPerson}
 // rest operator
 
 const friendZone = (...friends:string[])=>{
-    friends.forEach(friend=> console.log(`Hi ${friend}`))
+    friends.forEach((friend:string) => console.log(`Hi ${friend}`))
 }
 
 friendZone("abul",'kabul','babul','bokul')
