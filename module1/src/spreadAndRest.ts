@@ -11,7 +11,7 @@ const myInspiration = {
 }
 
 const myFavPerson={
-    socialMedia:'chamok hasan',
+    socialMedia:'Chamok Hasan',
     family: 'My Mom',
 }
 
