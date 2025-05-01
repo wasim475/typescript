@@ -9,8 +9,9 @@ type PoorUser ={
     name: string;
     age: number;
     balance: number;
+    addBalance: (balance:number)=>string
 }
-const poorUser = {
+const poorUser: PoorUser = {
     name: 'wasim',
     age: 29,
     balance: 0,
@@ -18,3 +19,7 @@ const poorUser = {
         return `New Balance ${this.balance + balance}`
     }
 }
+
+const arr:number[] = [2,4,6,8]
+
+const newArray: number[] = arr.map((ele:number): number=> ele*ele)
