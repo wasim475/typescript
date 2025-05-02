@@ -28,3 +28,13 @@ const getSpeedInMeterPerSecond = (value:unknown)=>{
 }
 
 getSpeedInMeterPerSecond(undefined)
+
+
+// Never type
+
+function throwError(msg:string):never {
+    throw new Error(msg);
+    
+}
+
+throwError("mushkil se error")
