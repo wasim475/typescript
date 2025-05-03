@@ -5,7 +5,7 @@
     Generics তোমাকে এমন ফাংশন, ইন্টারফেস বা ক্লাস বানাতে সাহায্য করে যেটা যে কোনো টাইপের ডেটার সাথে কাজ করতে পারে,
     কিন্তু সেই টাইপটা runtime-এ না বরং compile time-এ নির্ধারণ করা হয়... */
   
-    type GenericArray<T> = Array<T>;
+    type GenericArray<T> = Array<T>; //এখানে <T> হচ্ছে Generic Type Parameter। T যেকোনো টাইপ হতে পারে—string, number, object, ইত্যাদি।
   
     // const rollNumbers: number[] = [3, 6, 8];
     const rollNumbers: GenericArray<number> = [3, 6, 8];
