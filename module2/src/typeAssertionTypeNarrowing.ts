@@ -9,7 +9,7 @@ const sliceResult = (anything as string).charAt(4)
 console.log(sliceResult)
 
 
-const kgToGram = (value: string| number |undefined)=>{
+const kgToGram = (value: string| number |undefined): string| number| undefined=>{
     if(typeof value === 'string'){
         const convertedValue = parseFloat(value)*1000
         return `Converted value is: ${convertedValue.toFixed(2)} gram.`
@@ -20,7 +20,7 @@ const kgToGram = (value: string| number |undefined)=>{
 
 }
 
-const resultOfKgToGram = kgToGram('')
+const resultOfKgToGram = kgToGram('7') as string
 
 console.log(resultOfKgToGram)
 
