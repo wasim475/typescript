@@ -37,6 +37,7 @@
     add(30, 20);
   
     //generic tuple
+    //Generic Tuple মানে — tuple এর টাইপ গুলো dynamic রাখা, যেন আমরা পরে নির্দিষ্ট টাইপ দিয়ে সেটা তৈরি করতে পারি।
   
     type GenericTuple<X, Y> = [X, Y];
   
