@@ -49,7 +49,7 @@ const name = getProperty(person, 'name'); // string টাইপ
     }
 
     type Owner = "bike" | "car" | "ship"; // manually
-    type Owner2 = keyof Vehicle;
+    type Owner2 = keyof vehicle;
   
     const getPropertyValue = <X, Y extends keyof X>(obj: X, key: Y) => {
       return obj[key];
