@@ -56,7 +56,7 @@ const name = getProperty(person, 'name'); // string টাইপ
     };
   
     const user = {
-      name: "Mr. persian",
+      name: "Mr. Wasim",
       age: 26,
       address: "ctg",
     };
