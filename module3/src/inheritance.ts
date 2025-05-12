@@ -1,4 +1,4 @@
-class Mobile{
+class Device{
     
 
     constructor(public name: string, public band: string, public price:number){}
