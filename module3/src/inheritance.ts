@@ -4,5 +4,5 @@ class Device{
     constructor(public name: string, public band: string, public price:number){}
 }
 
-const phone = new Mobile("Galaxy A32","Samsung",31506 )
+const phone = new Mobile("Galaxy A23","Samsung",31506 )
 
