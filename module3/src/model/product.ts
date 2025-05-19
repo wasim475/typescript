@@ -9,6 +9,6 @@ class Products {
     }
 
     getStoct():string{
-        return `in stock ${this.inStock}`
+        return `this product in stock ${this.inStock}`
     }
 }
