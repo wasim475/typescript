@@ -5,7 +5,7 @@ class Products {
         this.price = price
     }
     getDetails():string{
-        return `product name is- ${this.name}`
+        return `product name is ${this.name}`
     }
 
     getStoct():string{
